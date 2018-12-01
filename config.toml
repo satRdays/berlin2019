@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://berlin2019.satrdays.org/"
 languageCode = "en-us"
-title = "satRday"
+title = "satRday Berlin"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
