@@ -29,6 +29,11 @@ header {
     background-repeat: no-repeat;
 }
 
+header .intro-text {
+    padding-top: 150px;
+    max-width: 768px;
+}
+
 .intro-text .btn-xl {
     box-shadow: 1px 1px 1px #666;
 }
@@ -298,12 +303,12 @@ static .staticbody {
 
 /* Widths and paddings */
 
-@media(min-width: 768px) {
+/* @media(min-width: 768px) {
     header .intro-text {
         padding-top: 100px;
         padding-bottom: 200px;
     }
-}
+} */
 
 
 /* Contact section */
