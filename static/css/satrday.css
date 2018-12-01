@@ -31,7 +31,7 @@ header {
 
 header .intro-text {
     padding-top: 150px;
-    max-width: 768px;
+    padding-left: 5%;
 }
 
 .intro-text .btn-xl {
