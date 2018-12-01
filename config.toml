@@ -1,7 +1,7 @@
 # Site settings
-baseurl = "https://satrdays-event-template.netlify.com/"
+baseurl = "https://berlin2019.satrdays.org/"
 languageCode = "en-us"
-title = "satRday"
+title = "satRday Berlin"
 theme = ["hugo-satrdays-theme", "hugo-agency-theme"]
 
 # Enter your tracking code to enable Google Analytics
@@ -17,8 +17,8 @@ googleAnalytics = ""
 
   # To provide some metadata for search engines feel free to add a few
   # information about you and your website.
-  name = "satRday [My City]"
-  description = "R conference in [My City]"
+  name = "satRday Berlin"
+  description = "R conference in Berlin"
   # email = "your@email.com"
 
   # Link custom assets relative to /static
@@ -77,8 +77,8 @@ googleAnalytics = ""
   [params.hero]
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
-    title = "satRday [My City]"
-    subtitle = "A conference for users of the R Language on [Conference Date]"
+    title = "satRday Berlin"
+    subtitle = "A conference for R users in Berlin 2019"
     bg = true
     buttonText = "Tell me more"
 
