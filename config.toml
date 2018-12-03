@@ -87,14 +87,14 @@ googleAnalytics = ""
   [params.services]
     enable = true
     title = "About"
-    subtitle = "Conference Details"
+    subtitle = ""
 
     [[params.services.row]]
 
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "[Conference Date] at [Conference Location]"
+      description = "Coming soon!"
       url = "#"
 
     [[params.services.row.list]]
@@ -112,13 +112,13 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-users"
       title = "Community Lead"
-      description = "Community organised, community focussed"
+      description = "Community organised, community focused"
       url = "#"
 
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only [£30]"
+      description = "Only €70"
       url = "#"
 
     [[params.services.row.list]]
@@ -215,7 +215,7 @@ googleAnalytics = ""
   # Location section
   [params.location]
     enable = true
-    title = "Location TBD"
+    title = "Conference Map"
     bg = true
     iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200147.04413924718!2d13.258059167156823!3d52.52561644917789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin%2C+Germany!5e0!3m2!1sen!2sus!4v1543678842281"
 
