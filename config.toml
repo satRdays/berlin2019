@@ -221,58 +221,60 @@ googleAnalytics = "UA-129586843-1"
 
   # Team section
   [params.team]
-    enable = false
+    enable = true
     # Possibility to center items
-    #center = true
+    center = true
     title = "Team"
     subtitle = "The people putting it together"
     bg = false
     description = ""
-    speakers = "Speakers"
+    speakers = ""
     
 
     # All team member's pictures are stored under 'static/img/team'.
     # Replace them with your own too.
     # Suggestion: Image size should be at least 360px*360px or the alignment might be affected.
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 1"
-      position = "Organiser Position 1"
+      img = "noa.jpeg"
+      name = "Noa Tamir"
+      position = "Director of Data Science at [AUTO1](https://www.auto1-group.com/), [RLadies Berlin](https://www.meetup.com/rladies-berlin/) organiser"
       reportsTo = ""
-      livesIn = "[Munich, Germany](#some-maps-url)"
-      scope = [
-        "Role 1 for [thing 1](#)",
-        "Role 2 for [thing 2](#)",
-        "Role 3 for [thing 3](#)"
-      ]
+      # livesIn = "[Munich, Germany](#some-maps-url)"
+      # scope = [
+      #   "Role 1 for [thing 1](#)",
+      #   "Role 2 for [thing 2](#)",
+      #   "Role 3 for [thing 3](#)"
+      # ]
       # For bio markdown and even multiline strings are available.
-      bio = """I do things,
-      and stuff"""
+      # bio = """I do things,
+      # and stuff"""
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        ["fa-twitter", "https://twitter.com/noatamir"],
+        # ["fa-github", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/noatamir/"],
+        ["fa-home", "http://www.noatamir.com/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 2"
-      position = "Organiser Position 2"
+      img = "jakob.jpeg"
+      name = "Jakob Graff"
+      position = "Data Science Team Lead at [Babbel](https://www.babbel.com/)"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        # ["fa-twitter", "#"],
+        # ["fa-github", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/jakob-graff-a6113a3a/"]
       ]
 
     [[params.team.members]]
-      img = "faceholder.png"
-      name = "Organiser Name 3"
-      position = "Organiser Position 3"
+      img = "steve.jpeg"
+      name = "Steve Cunningham"
+      position = "Data Analyst at [ResearchGate](https://www.researchgate.net/)"
       social = [
-        ["fa-twitter", "#"],
-        ["fa-github", "#"],
-        ["fa-linkedin", "#"]
+        # ["fa-twitter", "#"],
+        # ["fa-github", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/stephen-cunningham-a75286104/"]
       ]
+
 
   # Client section
   [params.clients_list]
