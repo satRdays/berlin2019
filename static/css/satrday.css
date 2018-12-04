@@ -628,3 +628,10 @@ canvas {
         padding: 15px 50px;
     }
 }
+
+/* Custom */
+
+#diversity p {
+    font-size: 12pt;
+    padding: 0 15px;
+}
