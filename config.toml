@@ -311,9 +311,9 @@ googleAnalytics = "UA-130530630-1"
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Any questions? Want to get involved? Write to us!"
     buttonText = "Send message"
     # netlify = true
 
@@ -335,7 +335,7 @@ googleAnalytics = "UA-130530630-1"
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrday.berlin@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
@@ -346,19 +346,19 @@ googleAnalytics = "UA-130530630-1"
 
     # 'warning' defines error messages for invalid inputs
     [params.contact.form.name]
-      text = "Your Name *"
+      text = "Your Name (required)"
       warning = "Please enter your name."
 
     [params.contact.form.email]
-      text = "Your Email *"
+      text = "Your Email (required)"
       warning = "Please enter your email address."
 
     [params.contact.form.phone]
-      text = "Your Phone *"
+      text = "Your Phone (required)"
       warning = "Please enter your phone number."
 
     [params.contact.form.message]
-      text = "Your Message *"
+      text = "Your Message (required)"
       warning = "Please enter a message."
 
       # Add optional form fields to identify contact forms
