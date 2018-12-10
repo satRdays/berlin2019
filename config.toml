@@ -311,11 +311,11 @@ googleAnalytics = "UA-130530630-1"
 
   # Contact section
   [params.contact]
-    enable = false
+    enable = true
     title = "Contact us"
-    subtitle  = "Lorem ipsum dolor sit amet consectetur."
+    subtitle  = "Any questions? Want to get involved? Write to us!"
     buttonText = "Send message"
-    # netlify = true
+    netlify = true
 
     # Since this template is static, the contact form uses www.formspree.io as a
     # proxy. The form makes a POST request to their servers to send the actual
@@ -335,7 +335,7 @@ googleAnalytics = "UA-130530630-1"
     # add some custom JS script to finish the implementation.
     # postURL = "https://example.com/mailout/"
 
-    email = "your@email.com"
+    email = "satrday.berlin+contact@gmail.com"
 
     # Success and error message overwrite for async contact form
     #thanks = "Thank you for awesomely contacting us."
