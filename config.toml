@@ -111,7 +111,7 @@ googleAnalytics = "UA-130530630-1"
 
     [[params.services.row.list]]
       icon = "fa-users"
-      title = "Community Lead"
+      title = "Community-led"
       description = "Community organised, community focused"
       url = "#"
 
