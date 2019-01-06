@@ -275,6 +275,26 @@ googleAnalytics = "UA-130530630-1"
         ["fa-linkedin", "https://www.linkedin.com/in/stephen-cunningham-a75286104/"]
       ]
 
+    [[params.team.members]]
+      img = "simon.jpeg"
+      name = "Simon Dunne"
+      position = "Team Lead Data Scientist, Marketing Analytics, [Babbel](https://www.babbel.com/)"
+      social = [
+        # ["fa-twitter", "#"],
+        # ["fa-github", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/simon-dunne-49979412b/"]
+      ]
+
+    [[params.team.members]]
+      img = "sonia.jpeg"
+      name = "Sonia Boender"
+      position = "Infectious Disease Epidemiologist & Public Health Researcher at the [Robert Koch Institute](https://www.rki.de/) & [European Centre for Disease Prevention and Control](https://ecdc.europa.eu)"
+      social = [
+        ["fa-twitter", "https://twitter.com/SoniaBoender"],
+        # ["fa-github", "#"],
+        ["fa-linkedin", "https://www.linkedin.com/in/soniaboender/"]
+      ]
+
 
   # Client section
   [params.clients_list]
