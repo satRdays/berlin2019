@@ -295,6 +295,14 @@ googleAnalytics = "UA-130530630-1"
         ["fa-linkedin", "https://www.linkedin.com/in/soniaboender/"]
       ]
 
+    [[params.team.members]]
+      img = "alison.jpeg"
+      name = "Alison Holland"
+      position = "UX Researcher at [GameDuell](https://www.gameduell.com/)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/alison-holland-2a329119/"]
+      ]
+
 
   # Client section
   [params.clients_list]
