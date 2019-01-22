@@ -303,6 +303,24 @@ googleAnalytics = ""
         ["fa-linkedin", "https://www.linkedin.com/in/alison-holland-2a329119/"]
       ]
 
+    [[params.team.members]]
+      img = "david.jpeg"
+      name = "David Pardo"
+      position = "Data Scientist at [Homebell](https://de.homebell.com/)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/david-pardo-5b947420/"],
+        ["fa-twitter", "https://twitter.com/DavidPardoB"]
+      ]
+
+    [[params.team.members]]
+      img = "none.png"
+      name = "Vadim Voskresenskii"
+      position = "Research Assistant at [Weizenbaum Institute for the Networked Society](https://vernetzung-und-gesellschaft.de/english/)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/vadim-voskresenskiy-9405b9a8/"],
+        ["fa-github", "https://github.com/voskresenskiy"]
+      ]
+
 
   # Client section
   [params.clients_list]
