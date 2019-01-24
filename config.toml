@@ -313,7 +313,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "none.png"
+      img = "vadim.jpg"
       name = "Vadim Voskresenskii"
       position = "Research Assistant at [Weizenbaum Institute for the Networked Society](https://vernetzung-und-gesellschaft.de/english/)"
       social = [
