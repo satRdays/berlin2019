@@ -324,9 +324,9 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = false
+    enable = true
     # Possibility to center items
-    #center = true
+    center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
     bg = true
@@ -335,20 +335,8 @@ googleAnalytics = ""
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
     [[params.clients]]
-      logo = "envato.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "designmodo.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "themeforest.jpg"
-      link = "#"
-
-    [[params.clients]]
-      logo = "creative-market.jpg"
-      link = "#"
+      logo = "RConsortium_Vertical_Pantone.png"
+      link = "https://www.r-consortium.org/"
   
   [params.diversity]
     enable = true
