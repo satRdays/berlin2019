@@ -322,30 +322,27 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "none.png"
-      name = "Vadim Voskresenskii"
-      position = "Research Assistant at [Weizenbaum Institute for the Networked Society](https://vernetzung-und-gesellschaft.de/english/)"
+      img = "daniela.png"
+      name = "Daniela Ordonez"
+      position = "Tranformation partner at [Europace AG](https://www.europace.de/)"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/vadim-voskresenskiy-9405b9a8/"],
-        ["fa-github", "https://github.com/voskresenskiy"]
+        ["fa-linkedin", "https://www.linkedin.com/in/danordacu/"],
+      ]
+
+    [[params.team.members]]
+      img = "olga.png"
+      name = "Olga Maslovskaya"
+      position = "Data scientist at [King](https://king.com/)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/olga-maslovskaya-b5a57837/"],
       ]
 
     [[params.team.members]]
       img = "none.png"
-      name = "Vadim Voskresenskii"
-      position = "Research Assistant at [Weizenbaum Institute for the Networked Society](https://vernetzung-und-gesellschaft.de/english/)"
+      name = "Aliakbar Akbaritabar"
+      position = "Postdoctoral Researcher at [German Centre for Higher Education Research and Science Studies (DZHW)](https://www.dzhw.eu/)"
       social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/vadim-voskresenskiy-9405b9a8/"],
-        ["fa-github", "https://github.com/voskresenskiy"]
-      ]
-
-    [[params.team.members]]
-      img = "none.png"
-      name = "Vadim Voskresenskii"
-      position = "Research Assistant at [Weizenbaum Institute for the Networked Society](https://vernetzung-und-gesellschaft.de/english/)"
-      social = [
-        ["fa-linkedin", "https://www.linkedin.com/in/vadim-voskresenskiy-9405b9a8/"],
-        ["fa-github", "https://github.com/voskresenskiy"]
+        ["fa-linkedin", "https://www.linkedin.com/in/akbaritabar/"],
       ]
 
 
