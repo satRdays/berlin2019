@@ -322,7 +322,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "daniela.png"
+      img = "daniela.jpeg"
       name = "Daniela Ordonez"
       position = "Tranformation partner at [Europace AG](https://www.europace.de/)"
       social = [
@@ -330,7 +330,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "olga.png"
+      img = "olga.jpeg"
       name = "Olga Maslovskaya"
       position = "Data scientist at [King](https://king.com/)"
       social = [
@@ -338,7 +338,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "none.png"
+      img = "ali.jpeg"
       name = "Aliakbar Akbaritabar"
       position = "Postdoctoral Researcher at [German Centre for Higher Education Research and Science Studies (DZHW)](https://www.dzhw.eu/)"
       social = [
