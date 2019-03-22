@@ -27,7 +27,7 @@ header {
     background-image: url(../img/header-bg.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 100vh;
 }
 
 header .intro-text {
