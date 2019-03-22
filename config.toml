@@ -215,9 +215,10 @@ googleAnalytics = ""
   # Location section
   [params.location]
     enable = true
-    title = "Conference Map"
+    title = "Location"
+    subtitle = "Hosted at the Hertie School of Governance"
     bg = true
-    iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d200147.04413924718!2d13.258059167156823!3d52.52561644917789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin%2C+Germany!5e0!3m2!1sen!2sus!4v1543678842281"
+    iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.1408082536695!2d13.387034915807199!3d52.512790779812825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850541e7e4e7d%3A0x461522e1c392f16!2sHertie+School+of+Governance!5e0!3m2!1sen!2sde!4v1553282110986"
 
   # Team section
   [params.team]
