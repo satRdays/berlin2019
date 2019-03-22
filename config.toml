@@ -158,12 +158,12 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = false
+    enable = true
     title = "Call For Papers"
     bg = false
-    CfSpage = "/test3490"
+    CfSpage = "/satrday-berlin-2019"
       # Go to Organizer > My Events > Dashboard and copy the "CfS Page" string into the `CfSpage` value
-    dates = "09 Aug - 21 Sep 2018"
+    dates = "25 Mar - 25 Apr 2019"
 
   # Talk [Portfolio] section
   [params.portfolio]
