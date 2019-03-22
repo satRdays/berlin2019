@@ -78,9 +78,9 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Berlin"
-    subtitle = "A conference for R users in Berlin 2019"
+    subtitle = "June 15th, 2019"
     bg = true
-    buttonText = "Tell me more"
+    buttonText = "Learn more"
 
 
   # About [Services] section
