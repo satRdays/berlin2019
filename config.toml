@@ -94,7 +94,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "Coming soon!"
+      description = "June 15th, 2019 @ Hertie School of Governance"
       url = "#"
 
     [[params.services.row.list]]
