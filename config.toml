@@ -94,7 +94,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "Coming soon!"
+      description = "June 15th, 2019 @ Hertie School of Governance"
       url = "#"
 
     [[params.services.row.list]]
@@ -344,6 +344,8 @@ googleAnalytics = ""
       position = "Postdoctoral Researcher at [German Centre for Higher Education Research and Science Studies (DZHW)](https://www.dzhw.eu/)"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/akbaritabar/"],
+        ["fa-github", "https://github.com/akbaritabar"],
+        ["fa-twitter", "https://twitter.com/Akbaritabar"]
       ]
 
 
