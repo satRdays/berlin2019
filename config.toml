@@ -331,7 +331,7 @@ googleAnalytics = ""
       ]
 
     [[params.team.members]]
-      img = "olga.jpeg"
+      img = "olga.png"
       name = "Olga Maslovskaya"
       position = "Data scientist at [King](https://king.com/)"
       social = [
