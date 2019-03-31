@@ -32,7 +32,7 @@ googleAnalytics = ""
 
   # meta stuff for share links
   meta_title = "satRday Berlin"
-  meta_image = "static/img/header-bg.jpg"
+  meta_image = "/static/img/header-bg.jpg"
   meta_description = "A conference for R users in Berlin"
   meta_url = "https://berlin2019.satrdays.org/"
 
