@@ -354,6 +354,16 @@ googleAnalytics = ""
         ["fa-twitter", "https://twitter.com/Akbaritabar"]
       ]
 
+    [[params.team.members]]
+      img = "cj.jpeg"
+      name = "CJ Yetman"
+      position = "Data Wrangler at the [Hertie School of Governance](https://www.hertie-school.org)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/cjyetman/"],
+        ["fa-github", "https://github.com/cjyetman"],
+        ["fa-twitter", "https://twitter.com/cjyetman"]
+      ]
+
 
   # Client section
   [params.clients_list]
