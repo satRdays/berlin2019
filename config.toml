@@ -364,6 +364,14 @@ googleAnalytics = ""
         ["fa-twitter", "https://twitter.com/cjyetman"]
       ]
 
+    [[params.team.members]]
+      img = "chia.jpeg"
+      name = "Chia Liu"
+      position = "Postdoctoral Reasearch Scientist at the [Max Planck Institute for Demographic Research](https://www.demogr.mpg.de)"
+      social = [
+        ["fa-linkedin", "https://www.linkedin.com/in/mschialiu/"]
+      ]
+
 
   # Client section
   [params.clients_list]
