@@ -645,6 +645,11 @@ canvas {
     padding: 0 15px;
 }
 
+#scholarships p {
+    font-size: 12pt;
+    padding: 0 15px;
+}
+
 .team-member img {
     height:20vh;
     width: 20vh;

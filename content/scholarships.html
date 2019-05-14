@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+    
+    <section id="scholarships" {{ if .Site.Params.diversity.bg }} class="bg-light-gray" {{ end }}>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Scholarships</h2>
+                </div>
+                <div>
+                    <p>
+                        As part of our commitment to making satRday Berlin as 
+                        accessible as possible...
+                    </p>
+                    
+                    <p>
+                        You can apply <a href="https://forms.gle/32SkGncv73ABtNwE8">here</a>.
+                    </p>    
+                        
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    {{ if .Site.Params.footer.enable }}
+      {{ partial "footer.html" . }}
+    {{ end }}
+
+    {{ if .Site.Params.portfolio.enable }}
+      {{ partial "modals.html" . }}
+    {{ end }}
+
+    {{ partial "js.html" . }}
+  </body>
+</html>
