@@ -388,6 +388,10 @@ googleAnalytics = ""
     [[params.clients]]
       logo = "RConsortium_Vertical_Pantone.png"
       link = "https://www.r-consortium.org/"
+
+    [[params.clients]]
+      logo = "jumpingrivers.png"
+      link = "https://www.jumpingrivers.com/"
   
   [params.diversity]
     enable = true
