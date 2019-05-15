@@ -646,7 +646,11 @@ canvas {
 }
 
 #scholarships p {
-    font-size: 12pt;
+    font-size: 14pt;
+    padding: 0 15px;
+}
+#scholarships li {
+    font-size: 14pt;
     padding: 0 15px;
 }
 
