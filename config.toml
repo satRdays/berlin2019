@@ -313,7 +313,7 @@ googleAnalytics = ""
     [[params.team.members]]
       img = "david.jpeg"
       name = "David Pardo"
-      position = "Data Scientist at [Homebell](https://de.homebell.com/)"
+      position = "Data Scientist at [Medwing](https://www.medwing.com/)"
       social = [
         ["fa-linkedin", "https://www.linkedin.com/in/david-pardo-5b947420/"],
         ["fa-twitter", "https://twitter.com/DavidPardoB"]
