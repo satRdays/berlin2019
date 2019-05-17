@@ -124,7 +124,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "Only €70"
+      description = "€60 per ticket (€30 for students)"
       url = "#"
 
     [[params.services.row.list]]
@@ -164,7 +164,7 @@ googleAnalytics = ""
   
   # Call for papers section
   [params.callforpapers]
-    enable = true
+    enable = false
     title = "Call For Papers"
     bg = false
     CfSpage = "/satrday-berlin-2019"
