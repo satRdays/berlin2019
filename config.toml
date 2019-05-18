@@ -478,9 +478,13 @@ googleAnalytics = ""
       link = "https://github.com/satRdays"
       title = "GitHub"
 
-    # [[params.footer.quicklinks]]
-    #   text = "Privacy Policy"
-    #   link = "#"
+    [[params.footer.quicklinks]]
+      text = "Privacy Policy"
+      link = "privacy"
+
+    [[params.footer.quicklinks]]
+      text = "Impressum"
+      link = "impressum"
 
     # [[params.footer.quicklinks]]
     #   text = "Terms of Use"
