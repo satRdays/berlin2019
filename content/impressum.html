@@ -1,5 +1,17 @@
-<!-- from here: https://www.translate-24h.de/impressum-generator-englisch -->
-{{ "<!-- Impressum -->" | safeHTML }}
+<!DOCTYPE html>
+<html lang="{{ with .Site.LanguageCode }}{{ . }}{{ else }}en-US{{ end }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+  <body id="page-top" class="index">
+    {{ partial "nav.html" . }}
+    
+    <section id="scholarships" {{ if .Site.Params.diversity.bg }} class="bg-light-gray" {{ end }}>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Impressum</h2>
+                </div>
 <h1>Legal Disclosure</h1>
 Information in accordance with Section 5 TMG
 <br><br>Tieckstr. 40<br>c/o Olga Maslovskaya<br>10115 Berlin<br>
@@ -30,3 +42,17 @@ The materials from these pages are copyrighted and any unauthorized use may viol
 
 <br><br>
 <i>Quelle: </i><a href="http://www.translate-24h.de" target="_blank">translate-24h Englisch Übersetzungen</a> <br><br>
+
+</section>
+    
+{{ if .Site.Params.footer.enable }}
+  {{ partial "footer.html" . }}
+{{ end }}
+
+{{ if .Site.Params.portfolio.enable }}
+  {{ partial "modals.html" . }}
+{{ end }}
+
+{{ partial "js.html" . }}
+</body>
+</html>
