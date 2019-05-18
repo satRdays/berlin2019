@@ -8,7 +8,9 @@
   {{ with .Site.Params.meta_description }}<meta property="og:description" content="{{ . }}">{{ end }}
   {{ with .Site.Params.meta_url }}<meta property="og:url" content="{{ . }}">{{ end }}
   <meta name="twitter:card" content="summary_large_image">
-  {{ with .Site.Params.meta_image }}<meta name="twitter:image" content="/img/flyer_twitter.png">{{ end }}
+  {{ with .Site.Params.meta_image }}<meta name="twitter:image:src" content="/img/flyer_twitter.png">{{ end }}
+  <meta name="twitter:image:width" content= "595" />
+  <meta name="twitter:image:height" content= "842" />
   {{ .Hugo.Generator }}
   <title>{{ .Title }}{{ if not .IsHome }} &middot; {{ .Site.Title }}{{ end }}</title>
   {{ "<!-- Stylesheets -->" | safeHTML }}
