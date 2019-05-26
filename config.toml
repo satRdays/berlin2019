@@ -124,7 +124,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-money"
       title = "Affordable"
-      description = "€60 per ticket (€30 for students)"
+      description = "€40 per ticket (€20 for students)"
       url = "#"
 
     [[params.services.row.list]]
@@ -385,11 +385,23 @@ googleAnalytics = ""
     # All the clients' logos are stored under 'static/img/logos'.
     # Replace them with your clients's logos.
     # Suggestion: .svg in the size of 280px*80px looks good
-    [[params.clients]]
-      logo = "RConsortium_Vertical_Pantone.png"
+    [[params.clients_tier1]]
+      logo = "auto1.png"
+      link = "https://www.auto1-group.com/"
+
+    [[params.clients_tier2]]
+      logo = "europace.jpg"
+      link = "https://www.europace.de/"
+
+    [[params.clients_tier2]]
+      logo = "rconsortium.png"
       link = "https://www.r-consortium.org/"
 
-    [[params.clients]]
+    [[params.clients_tier3]]
+      logo = "rstudio.png"
+      link = "https://www.rstudio.com/"
+
+    [[params.clients_tier3]]
       logo = "jumpingrivers.png"
       link = "https://www.jumpingrivers.com/"
   
