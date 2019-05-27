@@ -1,3 +1,28 @@
+
+.client-tier-1 {
+    max-width: 80vw;
+    max-height: 40vh;
+}
+
+.client-tier-2 {
+    max-width: 30vw;
+    max-height: 20vw;
+    /* max-height: 50%; */
+}
+
+.client-tier-3 {
+    max-width: 20vw;
+    max-height: 10vw;
+}
+
+.clients {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px 5px;
+}
+
 /* Colours work */
 
 header {

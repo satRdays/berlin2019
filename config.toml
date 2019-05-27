@@ -380,6 +380,7 @@ googleAnalytics = ""
     center = true
     # Optional client title specifying the involvement
     title = "Sponsors"
+    subtitle = "satRday Berlin is made possible by"
     bg = true
 
     # All the clients' logos are stored under 'static/img/logos'.
