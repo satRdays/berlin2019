@@ -84,14 +84,14 @@ googleAnalytics = ""
     # To change the background image of the hero, replace 'header-bg.jpg' in
     # the 'static/img' folder.
     title = "satRday Berlin"
-    subtitle = "June 15th, 2019"
+    subtitle = "June 2020"
     bg = true
     buttonText = "Learn more"
 
 
   # About [Services] section
   [params.services]
-    enable = true
+    enable = false
     title = "About"
     subtitle = ""
 
@@ -100,7 +100,7 @@ googleAnalytics = ""
     [[params.services.row.list]]
       icon = "fa-clock-o"
       title = "Details"
-      description = "June 15th, 2019 @ Hertie School of Governance"
+      description = "Berlin, June 2020"
       url = "#"
 
     [[params.services.row.list]]
@@ -135,26 +135,8 @@ googleAnalytics = ""
 
   # Register section
   # You only need ONE of these active
-  [params.tito]
-    enable = false
-    title = "Register"
-    bg = true
-    accountevent = "ultimateconf/2013"
-      # Go to https://ti.to/ and find the account (under your user) and event pair string e.g. "cardiff-satrday/2018"
-      # include botht the account and event in a string, seperated by /, with no spaces
-
-  [params.eventbrite]
-    enable = false
-    title = "Register"
-    bg = true
-    eid = "32416000129" 
-      # Go to https://www.eventbrite.co.uk/support/articles/en_US/How_To/how-to-sell-eventbrite-tickets-registrations-on-your-website-using-embeddable-widgets?lg=en_GB 
-      # Follow instructions to discover your 'Website Integration' embeddable iframe
-      # Take ONLY the numeric string between "eid=" and "&ref=etckt"
-      # Supply this string as the value to `eid` above
-
   [params.tickettailor]
-    enable = true
+    enable = false
     title = "Register"
     bg = true
     eventviewid = "265492"
@@ -190,7 +172,7 @@ googleAnalytics = ""
 
   # Schedule section
   [params.schedule]
-    enable = true
+    enable = false
     title = "Schedule"
     bg = false
 
@@ -222,9 +204,12 @@ googleAnalytics = ""
   [params.location]
     enable = true
     title = "Location"
-    subtitle = "Hosted at the Hertie School of Governance"
+    # subtitle = "Hosted at the Hertie School of Governance"
     bg = true
-    iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.1408082536695!2d13.387034915807199!3d52.512790779812825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850541e7e4e7d%3A0x461522e1c392f16!2sHertie+School+of+Governance!5e0!3m2!1sen!2sde!4v1553282110986"
+    #  Hertie:
+    # iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2428.1408082536695!2d13.387034915807199!3d52.512790779812825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a850541e7e4e7d%3A0x461522e1c392f16!2sHertie+School+of+Governance!5e0!3m2!1sen!2sde!4v1553282110986"
+    # Berlin (general):
+    iframesrc="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d108823.19754951322!2d13.301615107440965!3d52.514806806515196!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47a84e373f035901%3A0x42120465b5e3b70!2sBerlin!5e0!3m2!1sen!2sde!4v1578519751295!5m2!1sen!2sde"
 
   # Team section
   [params.team]
@@ -246,15 +231,6 @@ googleAnalytics = ""
       name = "Noa Tamir"
       position = "Director of Data Science at [AUTO1](https://www.auto1-group.com/), [RLadies Berlin](https://www.meetup.com/rladies-berlin/) organiser"
       reportsTo = ""
-      # livesIn = "[Munich, Germany](#some-maps-url)"
-      # scope = [
-      #   "Role 1 for [thing 1](#)",
-      #   "Role 2 for [thing 2](#)",
-      #   "Role 3 for [thing 3](#)"
-      # ]
-      # For bio markdown and even multiline strings are available.
-      # bio = """I do things,
-      # and stuff"""
       social = [
         ["fa-twitter", "https://twitter.com/noatamir"],
         # ["fa-github", "#"],
@@ -375,7 +351,7 @@ googleAnalytics = ""
 
   # Client section
   [params.clients_list]
-    enable = true
+    enable = false
     # Possibility to center items
     center = true
     # Optional client title specifying the involvement
